@@ -1,0 +1,15 @@
+{
+  "name": "simple-text-verify",
+  "license": "1.0.0",
+  "author": {
+    "name": "Kaffe",
+    "email": "ja-coding@139.com"
+  },
+  "description": "Implement of text verify that first word couldn't be number with a simple server interface",
+  "dependencies": {
+    "browserify": "^17.0.0"
+  },
+  "scripts": {
+    "build": "browserify js/src/app.js -o js/lib/bundle.js"
+  }
+}
